@@ -1,4 +1,4 @@
-# Atari-Digital-Video
+# Amiga-Digital-Video
 Add pixel-perfect HDMI output to the Amiga machines.
 
 For all Amiga versions that have a socketed Denise chip, a rather small adapter board can
