@@ -24,18 +24,16 @@ If 1080p is OK for you, this is not needed.
 ## Build process
 
 1. Remove Denise graphics chip
-
-!(remove_denise.jpg)
+![](remove_denise.jpg)
 
 2. Insert adapter with Denise on top
-
-!(adapter_with_denise.jpg)
+![](adapter_with_denise.jpg)
 
 3. Attach Raspberry Pi Zero upside down and attach HDMI and button cable (optional)
-!(RPi_with_cables.jpg)
+![](RPi_with_cables.jpg)
 
 4. Bring cables to the outside of the case
-!(cabline.jpg)
+![](cabling.jpg)
 
 
 ## Software
