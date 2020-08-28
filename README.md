@@ -3,7 +3,7 @@ Add pixel-perfect HDMI output to the Amiga machines.
 
 For all Amiga versions that have a socketed Denise chip, a rather small adapter board can
 be used to extract the digital video signal (12 bit) to a 40-pin connector compatible
-with the a Raspberry Pi Zero. This can then used with the RGBtoHDMI software 
+with the a Raspberry Pi Zero. This can then be used with the RGBtoHDMI software 
 to produce a perfect HDMI picure with very low latency (a few milliseconds at most).
 
 ## Stuff needed
@@ -38,7 +38,7 @@ If 1080p is OK for you, this is not needed.
 
 ## Software
 
-Download the latest release of the RGBtoHDMI software https://github.com/hoglet67/RGBtoHDMI and unzip the content to the micro SD card 
-(must be formatted with FAT32). This micro sd card goes into the RPi and contains all software needed.
-Because the adapter board already contains a configuration selector, the Amiga profile is already preselected and can be used directly.
+Download the latest release of the RGBtoHDMI software (https://github.com/hoglet67/RGBtoHDMI) and unzip the content to the micro SD card 
+(must be formatted as FAT32). This micro SD card goes into the RPi and contains all software needed.
+Because the adapter board contains a configuration selector, the Amiga profile is already preselected and can be used directly.
 
