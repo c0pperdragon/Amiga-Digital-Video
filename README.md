@@ -3,8 +3,8 @@ Add pixel-perfect HDMI output to the Amiga machines.
 
 For all Amiga versions that have a socketed Denise chip, a rather small adapter board can
 be used to extract the digital video signal (12 bit) to a 40-pin connector compatible
-with the a Raspberry Pi Zero. This can then be used with the RGBtoHDMI software 
-to produce a perfect HDMI picure with very low latency (a few milliseconds at most).
+with the Raspberry Pi Zero. This can then be used with the RGBtoHDMI software 
+to produce a perfect HDMI picture with very low latency (a few milliseconds at most).
 
 ![](bootscreen.jpg)
 
@@ -20,7 +20,7 @@ The rest can be directly bought from many electronics retailers:
 * Mini-HDMI adapter or adapter cable (may already come in a set with the Pi)
 * Some HDMI extension to reach the outside of the computer case
 
-An optional push button can be added to allow forcing of specific output resolution and other tweaks.
+An optional push button can be added to allow forcing of specific output resolutions and other tweaks.
 As the device auto-detects the monitor resolution and produces the best possible picture anyway,
 this is normally not needed.
 
@@ -57,8 +57,8 @@ dedicated [external solutions](https://www.reichelt.at/at/en/hdmi-4k2k-audio-ins
 for that.
 
 Some monitors may refuse to work with a video signal with 50 frames per second as produced by the PAL Amiga variants.
-In such a case you can force the upscaler to 60 frames mode by either pressing the menu button during power-updated.
-If you have not installed the button, you can as well just semi-permantently put a jumper link on the button contacts
+In such a case you can force the upscaler to 60 frames mode by pressing the menu button during power-up.
+If you have not installed the button, you can as well just semi-permanently put a jumper link on the button contacts
 instead.
 When you force 60 frames in such a way, you will experience screen-tearing or jumpy scrolling in games or demos, 
 so this fall-back should only be used if it would not work at all otherwise.
