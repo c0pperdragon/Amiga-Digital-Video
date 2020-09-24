@@ -34,7 +34,7 @@ Because the adapter board contains a configuration selector, the Amiga profile i
 
 ## Installation - no soldering required
 
-When you are not comfortable with an soldering iron or just don't own one, you can easily
+When you are not comfortable with a soldering iron or just don't have one, you can easily
 obtain a Rasperry Pi Zero with preinstalled pin headers from various vendors. 
 When you use this and don't require the optional menu button (for expert use only), the whole
 installation is just done by plugging parts together. 
@@ -67,6 +67,6 @@ so this fall-back should only be used if it would not work at all otherwise.
 ## Build your own adapter board or get it ready-made
 
 The board schematics and PCB design is open-source and part of the 
-[RGBtoHDMI project] (https://github.com/hoglet67/RGBtoHDMI/tree/master/kicad_AmigaAdapter/V1)
-If you are not confident to assemble parts with 0.65mm pin pitch, you can contact me via
+[RGBtoHDMI project](https://github.com/hoglet67/RGBtoHDMI/tree/master/kicad_AmigaAdapter/V1)
+If you are not confident to solder parts with 0.65mm pin pitch, you can contact me via
 (reinhard.grafl (at) aon.at) to get a completed board. I would give these away for €25 plus shipping. 
