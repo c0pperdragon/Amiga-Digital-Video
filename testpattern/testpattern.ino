@@ -24,6 +24,7 @@
 #define BLUE2   A0           // 
 #define BLUE1   13           // 
 
+#define MODE60  11
 
 
 void setup() 
@@ -49,6 +50,8 @@ void setup()
     pinMode(BLUE2, OUTPUT);  
     pinMode(BLUE1, OUTPUT);  
 
+    pinMode(MODE60, INPUT_PULLUP);
+    
     // -- TIMER 1 register setup (for horizontal sync)
     // set to mode 7 for 10-bit counter (fast PWM)
     // will count 0 to 1023 for a 64 us period
@@ -111,13 +114,16 @@ void sync(byte lowtime)
 void loop() 
 {
   int i;
+  bool mode60;
+  
   for (i=0; i<3; i++) { sync(130); }    // 3 lines vertical syncs
   for (i=0; i<50; i++) { sync(11); }    // 50 lines top blanking
+
+  mode60 = (digitalRead(MODE60) == LOW);
   
   for (i=0; i<20; i++)                  // 20 lines red pattern
   { 
       sync(11); 
-      digitalWrite(CSYNC, HIGH);
       digitalWrite(CSYNC, HIGH);
       digitalWrite(RED0, HIGH);
       digitalWrite(RED1, HIGH);
@@ -135,7 +141,6 @@ void loop()
   { 
       sync(11); 
       digitalWrite(CSYNC, HIGH);
-      digitalWrite(CSYNC, HIGH);
       digitalWrite(GREEN0, HIGH);
       digitalWrite(GREEN1, HIGH);
       digitalWrite(GREEN2, HIGH);
@@ -152,7 +157,6 @@ void loop()
   { 
       sync(11); 
       digitalWrite(CSYNC, HIGH);
-      digitalWrite(CSYNC, HIGH);
       digitalWrite(BLUE0, HIGH);
       digitalWrite(BLUE1, HIGH);
       digitalWrite(BLUE2, HIGH);
@@ -162,8 +166,13 @@ void loop()
       digitalWrite(BLUE2, LOW);
       digitalWrite(BLUE3, LOW);
   }    
+
+  for (i=0; i<140; i++) { sync(11); }     // 140 empty lins
   
-  for (i=0; i<189; i++) { sync(11); }   // 189 empty lins
+  if (!mode60)
+  {   for (i=0; i<50; i++) { sync(11); }  // 50 more empty lines for 50 Hz mode
+  }
+                                          // 313 Total
 }
 
 
