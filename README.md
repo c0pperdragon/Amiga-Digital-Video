@@ -3,7 +3,7 @@ Add pixel-perfect HDMI output to the Amiga machines.
 
 For all Amiga versions that have a socketed Denise chip, a rather small adapter board can
 be used to extract the digital video signal (12 bit) to a 40-pin connector compatible
-with the Raspberry Pi Zero. This can then be used with the RGBtoHDMI software 
+with the Raspberry Pi Zero. This can then be used with the [RGBtoHDMI](https://github.com/hoglet67/RGBtoHDMI) software 
 to produce a perfect HDMI picture with very low latency (a few milliseconds at most).
 
 ![](bootscreen.jpg)
@@ -27,8 +27,11 @@ this is normally not needed.
 
 ## Software
 
-Download the latest release of the RGBtoHDMI software (https://github.com/hoglet67/RGBtoHDMI) and unzip the content to the micro SD card 
-(must be formatted as FAT32). This micro SD card goes into the RPi and contains all software needed.
+The Raspberry Pi needs to have a version of the RGBtoHDMI software on is SDCard. A compatible release of the 
+software will eventually be available from the original repository at: https://github.com/hoglet67/RGBtoHDMI.
+Until then I have mirrored a working [development release](misc/AmigaTest-v0-06.zip) for your convenience. 
+Unzip the content of the archive to a micro SD card, formatted as FAT32. This card goes into the Rasperry Pi Zero 
+and contains all software needed. 
 Because the adapter board contains a configuration selector, the Amiga profile is already preselected and can be used directly.
 
 
@@ -39,16 +42,16 @@ obtain a Rasperry Pi Zero with preinstalled pin headers from various vendors.
 When you use this and don't require the optional menu button (for expert use only), the whole
 installation is just done by plugging parts together. 
 Depending on how you want to bring the HDMI signal out of the computer case, you may have to 
-cut a hole in the case. But to keep the case original, you could also bring the
-cable out through some other openings (like the expansion port), or just do not close the case at all.
+cut a hole in the case. Or to keep the case original, you could also bring the
+cable out through some other opening (like the expansion port), or just do not close the case at all.
 
 [Step by step installation instructions](installation/README.md)
 
 
 ## Compatibility
 
-The current adapter board and software work with PAL and NTSC Amigas that have an original (OCS) Denise.
-An updated version of the board is currently in development that will also support a DIP-48 SuperDenise chip
+The current adapter board works with PAL and NTSC Amigas that have an OCS Denise (8362 variants).
+An updated version of the board is currently in development that will also support a DIP-48 8373 SuperDenise
 (sorry, Amiga 600 users), but only as long as none of the ECS screen modes are used.
 
 Please note that the HDMI signal will not carry any audio. You still need to get the audio signal from
