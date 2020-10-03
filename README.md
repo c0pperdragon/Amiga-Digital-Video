@@ -16,7 +16,7 @@ under the Denise chip.
 
 The rest can be directly bought from many electronics retailers:
 * Raspberry Pi Zero (any variant)
-* Micro SD card (any)
+* Micro SD card (any) and some means to transfer data to it.
 * Mini-HDMI adapter or adapter cable (may already come in a set with the Pi)
 * Some HDMI extension to reach the outside of the computer case
 
