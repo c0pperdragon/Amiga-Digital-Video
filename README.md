@@ -1,7 +1,7 @@
 # Amiga-Digital-Video
 Add pixel-perfect HDMI output to the Amiga machines.
 
-For all Amiga versions that have a socketed Denise chip, a rather small adapter board can
+For all Amiga versions that have a socketed DIP Denise chip, a rather small adapter board can
 be used to extract the digital video signal (12 bit) to a 40-pin connector compatible
 with the Raspberry Pi Zero. This can then be used with the [RGBtoHDMI](https://github.com/hoglet67/RGBtoHDMI) software 
 to produce a perfect HDMI picture with very low latency (a few milliseconds at most).
@@ -24,6 +24,7 @@ An optional push button can be added to allow forcing of specific output resolut
 As the device auto-detects the monitor resolution and produces the best possible picture anyway,
 this is normally not needed.
 
+![](adapter.jpg)
 
 ## Software
 
