@@ -48,6 +48,8 @@ cable out through some other opening (like the expansion port), or just do not c
 
 [Step by step installation instructions](installation/README.md)
 
+There is also a nice Youtube video series showing the installation process in more detail:
+https://www.youtube.com/user/brostenen
 
 ## Compatibility
 
@@ -60,7 +62,10 @@ the RCA jacks as usual. If you absolutely have to merge the audio signal into HD
 dedicated [external solutions](https://www.reichelt.at/at/en/hdmi-4k2k-audio-inserter-converter-ida-hdmi-ai4k-p247886.html?r=1)
 for that.
 
-Some monitors may refuse to work with a video signal with 50 frames per second as produced by the PAL Amiga variants.
+The output device needs to support at least 1024 lines because the mod quadruples the screen resolution. So 
+I very much guess an early 720p TV will not work at all. Digital computer monitors normally already have a sufficiently 
+high resolution.
+Also some monitors may refuse to work with a video signal with 50 frames per second as produced by the PAL Amiga variants.
 In such a case you can force the upscaler to 60 frames per second mode by pressing the menu button during power-up.
 If you have not installed the button, you can as well just semi-permanently put a jumper link on the button contacts
 instead.
