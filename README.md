@@ -30,7 +30,7 @@ this is normally not needed.
 
 The Raspberry Pi needs to have a version of the RGBtoHDMI software on its SDCard. A compatible release of the 
 software is available from the RGBtoHDMI repository 
-https://github.com/hoglet67/RGBtoHDMI/releases/tag/20201010_4c8ca86 .
+https://github.com/hoglet67/RGBtoHDMI/releases/tag/20201126_2d102ae .
 Unzip the content of the archive to the root folder of a micro SD card, formatted as FAT32. 
 This card goes into the Rasperry Pi Zero and contains all software needed. 
 Because the adapter board contains a configuration selector, the Amiga profile is already preselected and can be used directly.
@@ -54,7 +54,7 @@ https://www.youtube.com/user/brostenen
 ## Compatibility
 
 The first revision of the adapter board works with PAL and NTSC Amigas that have an OCS Denise 
-(8362 variants). A second version of the board (V2) also supports a DIP-48 8373 SuperDenise
+(8362 variants).The current version of the board (V2) also supports a DIP-48 8373 SuperDenise
 (sorry, Amiga 600 users), but only as long as none of the ECS screen modes are used.
 
 Please note that the HDMI signal will not carry any audio. You still need to get the audio signal from
