@@ -78,4 +78,6 @@ so this fall-back should only be used if it would not work at all otherwise.
 The board schematics and PCB design is open-source and part of the 
 [RGBtoHDMI project](https://github.com/hoglet67/RGBtoHDMI/tree/master/kicad_AmigaAdapter)
 If you are not confident to solder parts with 0.65mm pin pitch, you can contact me via
-(reinhard.grafl (at) aon.at) to get a completed board. I would give these away for €25 plus shipping. 
+(reinhard.grafl (at) aon.at) to get a completed board. I would give these away for €29 plus shipping. 
+For availability of such boards, please check this page: https://github.com/c0pperdragon/Amiga-Digital-Video/issues/13
+
