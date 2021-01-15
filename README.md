@@ -48,7 +48,7 @@ cable out through some other opening (like the expansion port), or just do not c
 
 [Step by step installation instructions](installation/README.md)
 
-There is also a nice Youtube video series showing the installation process in more detail:
+There is also a nice Youtube video series from a user showing the installation process in more detail:
 https://www.youtube.com/user/brostenen
 
 ## Compatibility
@@ -72,6 +72,16 @@ instead.
 When you force 60 frames in such a way, you will experience screen-tearing or jumpy scrolling in games or demos, 
 so this fall-back should only be used if it would not work at all otherwise.
 
+## Small adapter variant 
+
+For installation in an A600 or for other constrained installation, I have designed a generic adapter. 
+Instead of being a plug-and-play solution, this board needs substantial soldering of individual wires.
+Gerber files, schematics and BOM are available at https://github.com/hoglet67/RGBtoHDMI/tree/master/kicad_AmigaAdapter/Small .
+
+![](smalladapter.png)
+
+Use this issue thread for discussions on this special topic:
+https://github.com/c0pperdragon/Amiga-Digital-Video/issues/22
 
 ## Build your own adapter board or get it ready-made
 
