@@ -84,6 +84,9 @@ Gerber files, schematics and BOM are available at https://github.com/hoglet67/RG
 Use this issue thread for discussions on this special topic:
 https://github.com/c0pperdragon/Amiga-Digital-Video/issues/22
 
+By accident I have ordered a large quantity of PCBs for these small adapters which I absolutely do not need. So if you 
+want some bare PCBs really cheap, please drop me a mail. I could send you a simple envelope with 2 PCBs for €3.
+
 ## Build your own adapter board or get it ready-made
 
 The board schematics and PCB design is open-source and part of the 
