@@ -55,7 +55,8 @@ https://www.youtube.com/user/brostenen
 
 The first revision of the adapter board works with PAL and NTSC Amigas that have an OCS Denise 
 (8362 variants).The current version of the board (V2) also supports a DIP-48 8373 SuperDenise
-(sorry, Amiga 600 users), but only as long as none of the ECS screen modes are used.
+(sorry, Amiga 600 users), but only as long as one of the OCS screen modes is used
+(320x256, 320x512 interlaced, 640x256, 640x512 interlaced).
 
 Please note that the HDMI signal will not carry any audio. You still need to get the audio signal from
 the RCA jacks as usual. If you absolutely have to merge the audio signal into HDMI there are
