@@ -30,7 +30,7 @@ this is normally not needed.
 
 The Raspberry Pi needs to have a version of the RGBtoHDMI software on its SDCard. A compatible release of the 
 software is available from the RGBtoHDMI repository 
-https://github.com/hoglet67/RGBtoHDMI/releases/tag/20201126_2d102ae .
+https://github.com/hoglet67/RGBtoHDMI/releases.
 Unzip the content of the archive to the root folder of a micro SD card, formatted as FAT32. 
 This card goes into the Rasperry Pi Zero and contains all software needed. 
 Because the adapter board contains a configuration selector, the Amiga profile is already preselected and can be used directly.
