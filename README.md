@@ -1,8 +1,8 @@
 # Amiga-Digital-Video
 Add pixel-perfect HDMI output to the Amiga machines.
 
-For all Amiga versions that have a socketed DIP Denise chip, a rather small adapter board can
-be used to extract the digital video signal (12 bit) to a 40-pin connector compatible
+For all Amiga versions that have a socketed DIP Denise chip and the required physical space inside, 
+a rather small adapter board can be used to extract the digital video signal (12 bit) to a 40-pin connector compatible
 with the Raspberry Pi Zero. This can then be used with the [RGBtoHDMI](https://github.com/hoglet67/RGBtoHDMI) software 
 to produce a perfect HDMI picture with very low latency (a few milliseconds at most).
 
@@ -57,6 +57,10 @@ The first revision of the adapter board works with PAL and NTSC Amigas that have
 (8362 variants).The current version of the board (V2) also supports a DIP-48 8373 SuperDenise
 (sorry, Amiga 600 users), but only as long as one of the OCS screen modes is used
 (320x256, 320x512 interlaced, 640x256, 640x512 interlaced).
+
+For very early models of the A500 and A2000 as well as all the A1000 models, some additional
+soldering to the main board is needed to bring the necessary signals to the Denise socket.
+Refer to https://github.com/c0pperdragon/Amiga-Digital-Video/issues/28 for more details on how this can be done.
 
 Please note that the HDMI signal will not carry any audio. You still need to get the audio signal from
 the RCA jacks as usual. If you absolutely have to merge the audio signal into HDMI there are
