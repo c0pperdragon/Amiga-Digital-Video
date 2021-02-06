@@ -91,6 +91,13 @@ https://github.com/c0pperdragon/Amiga-Digital-Video/issues/22
 By accident I have ordered a large quantity of PCBs for these small adapters which I absolutely do not need. So if you 
 want some bare PCBs really cheap, please drop me a mail. I could send you a simple envelope with 2 PCBs for €3.
 
+## Big box variant
+
+Specifically for the use with the Amiga 2000 and Amiga 3000, user Bloodmosher has designed
+a board to go into the video slot of these machines. He also intends to sell finished
+boards to interested users. 
+For more details check https://github.com/Bloodmosher/Amiga-VideoSlot-RGBtoHDMI
+
 ## Build your own adapter board or get it ready-made
 
 The board schematics and PCB design is open-source and part of the 
