@@ -88,8 +88,10 @@ Gerber files, schematics and BOM are available at https://github.com/hoglet67/RG
 Use this issue thread for discussions on this special topic:
 https://github.com/c0pperdragon/Amiga-Digital-Video/issues/22
 
-By accident I have ordered a large quantity of PCBs for these small adapters which I absolutely do not need. So if you 
-want some bare PCBs really cheap, please drop me a mail. I could send you a simple envelope with 2 PCBs for €3.
+I have now prepared kits for this small adapter containing one PCB and the necessay SMD parts. By sending these
+kits in an untracked envelope, I can offer them for €6 including international postage.
+If you want to get one, please drop me an e-mail  (address below in the contact information).
+
 
 ## Big box variant
 
@@ -98,11 +100,7 @@ a board to go into the video slot of these machines. He also intends to sell fin
 boards to interested users. 
 For more details check https://github.com/Bloodmosher/Amiga-VideoSlot-RGBtoHDMI
 
-## Build your own adapter board or get it ready-made
+## Contact
 
-The board schematics and PCB design is open-source and part of the 
-[RGBtoHDMI project](https://github.com/hoglet67/RGBtoHDMI/tree/master/kicad_AmigaAdapter)
-If you are not confident to solder parts with 0.65mm pin pitch, you can contact me via
-(reinhard.grafl (at) aon.at) to get a completed board. I would give these away for €29 plus shipping. 
-For availability of such boards, please check this page: https://github.com/c0pperdragon/Amiga-Digital-Video/issues/13
-
+For general questions on the project and to reoport problems and give feedback, please use the github issue system.
+For specific questions, like ordering small adapter kits, please email me at   reinhard.grafl (at) aon.at .
