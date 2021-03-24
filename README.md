@@ -92,6 +92,8 @@ I have now prepared kits for this small adapter containing one PCB and the neces
 kits in an untracked envelope, I can offer them for €6 including international postage.
 If you want to get one, please drop me an e-mail  (address below in the contact information).
 
+[Small adapter kit description](smallkit/README.md)
+
 
 ## Big box variant
 
