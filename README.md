@@ -88,7 +88,7 @@ Gerber files, schematics and BOM are available at https://github.com/hoglet67/RG
 Use this issue thread for discussions on this special topic:
 https://github.com/c0pperdragon/Amiga-Digital-Video/issues/22
 
-I have now prepared kits for this small adapter containing one PCB and the necessay SMD parts. By sending these
+I have now prepared kits for this small adapter containing one PCB and the necessary SMD parts. By sending these
 kits in an untracked envelope, I can offer them for €6 including international postage.
 If you want to get one, please drop me an e-mail  (address below in the contact information).
 
