@@ -105,4 +105,4 @@ For more details check https://github.com/Bloodmosher/Amiga-VideoSlot-RGBtoHDMI
 ## Contact
 
 For general questions on the project and to reoport problems and give feedback, please use the github issue system.
-For specific questions, like ordering small adapter kits, please email me at   reinhard.grafl (at) aon.at .
+For specific questions, like ordering kits for the "Small" adapter, please email me at   reinhard.grafl (at) aon.at .
