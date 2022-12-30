@@ -1,6 +1,6 @@
 # Amiga Digital Video Hack
 
-The standard video connector of the Amiga as 23 pins of which only a small number
+The standard video connector of the Amiga has 23 pins of which only a small number
 is actually needed for most use cases. When re-purposing 8 of the lesser used
 pins, all 12 color bits can be exposed. 
 
@@ -40,18 +40,18 @@ perfect HDMI.
 I have tried to keep compatibility with existing display devices as high as possible, but some things
 will just no longer work.
 
-* Genlock interface 
-The _XCLKEN und XCLK inputs were used to force the Amigas clock to run in sync with an external hardware. This was 
+* Genlock interface: 
+The _XCLKEN und XCLK inputs were used to force the Amiga's clock to run in sync with an external hardware. This was 
 used to produce overlays for TV video signals. Also the PIXLSW output was used for this purpose to notify the
 overlay circuity about when the Amiga is creating any color signal.
-* CGA or VGA monitors
+* CGA or VGA monitors:
 Monitors that need explicit horizontal and vertical sync signals (HSYNC, VSYNC). Originally this, together with the 4 original digital 
-color outputs, was intended to drive a CGA monitor. Later hacks used this to connect a 15kHz-comptabile VGA monitor. 
-* Clock output 
+color outputs, was intended to drive a CGA monitor. Later hacks used this to connect a 15kHz-compatible VGA monitor. 
+* Clock output:
 I don't know which hardware actually used the clock output (_CCK), but anyway it would not work any longer.
-* -5/-12 volt
+* -5/-12 volt:
 I also don't know which hardware would need the negative voltage. So whatever the usage was, it will not work.
-* SCART adapters
+* SCART adapters:
 This is the only real use case that is probably still relevant. Many Amiga-to-SCART cables use the +12 volt output
 to generate the signaling voltage to switch the TV to RGB mode. Many TVs do not need this signal and can be switched
 to RGB manually. But some TVs rely on this signal. In this case you would have to rework the cable to get the signaling
@@ -63,7 +63,7 @@ the other voltage.
 My instructions and pictures refer to my Amiga 500 board that is Revision 6A. The circuit of other machines may be similar
 but may also differ in important aspects. Do not follow this instructions blindly but use your own judgement.
 
-You will need soldering/desoldering equipment, 13 resistors (47 Ohm) and the required skill.
+You will need soldering/desoldering equipment, 13 resistors (47 Ohm) and some soldering skills.
 
 ### Cut _XCLKEN
 
@@ -129,7 +129,7 @@ Using this cable on an unmodified Amiga will directly transfer the original -5/-
 will damage the CPLD and mabe even the Raspberry Pi itself. Consider to write a warning on the DB23 plug.
 
 | Signal  | 16 way IDC | DB23
------------------------------
+| ------- | ---------- | ----
 | G0      | 1          | 1
 | R0      | 2          | 12
 | B0      | 3          | 6
