@@ -6,8 +6,10 @@ HDMI using the [RGBtoHDMI](https://github.com/hoglet67/RGBtoHDMI) system. There 
 ways available to wire this all together.
 
 This page tries to give a short overview over the possibilities and instructions on some of the options.
+Also the issue tracking system can be nicely used as discussion forum for everything related.
 
 ![](misc/bootscreen.jpg)
+
 
 ## Internal solutions
 
