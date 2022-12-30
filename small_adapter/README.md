@@ -1,9 +1,17 @@
 # Small adapter 
 
-I can provide a very cheap DIY solution for the adapter. This consists of a PCB and the necessary SMD parts.
-You will have to solder this yourself and also add individual wires to various points on the Amiga main board.
-Doing the SMD is not too hard, as I have explicitely chosen the largest SMD parts available (1.25mm pin pitch). If you are new to SMD, there are many
-good tutorials available on youtube, like for example https://www.youtube.com/watch?v=hoLf8gvvXXU .
+For installation in an A600 or for other constrained installation, I have designed a generic adapter. 
+Instead of being a plug-and-play solution, this board needs substantial soldering of individual wires.
+Gerber files, schematics and BOM are available at https://github.com/hoglet67/RGBtoHDMI/tree/master/kicad_AmigaAdapter/Small .
+
+![](smalladapter.png)
+
+Use this issue thread for discussions on this special topic:
+https://github.com/c0pperdragon/Amiga-Digital-Video/issues/22
+
+I have now prepared kits for this small adapter containing one PCB and the necessary SMD parts. By sending these
+kits in an untracked envelope, I can offer them for €6 including international postage.
+If you want to get one, please drop me an e-mail  (address below in the contact information).
 
 
 ## Kit content

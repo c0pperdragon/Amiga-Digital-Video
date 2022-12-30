@@ -1,0 +1,36 @@
+Pin Signal  SCART   SCART  9-pin    DIGITAL  HYBRID  rework comment
+            (V1.0A) (alt)           
+1   XCLK                            G0       11      to RP403 pin 2
+2   _XCLKEN                         B1       15      to R403 pin 2
+3   R       x       x      x
+4   G       x       x      x
+5   B       x       x      x
+6   DI = B0                                  16      use 47Ohm for RP402 pin 3 and 4 
+7   DB = B3                                  13      use 47Ohm for RP402 pin 5 and 6
+8   DG = G3                                  8       use 47Ohm for RP402 pin 7 and 8
+9   DR = R3                                  3       use 47Ohm for RP402 pin 9 and 10
+10  CSYNC   x       x      x                         use 47Ohm for RP403 pin 9 and 10
+11  HSYNC                           G2       9       to RP403 pin 6
+12  VSYNC                           R0       6       to RP403 pin 8
+13  DGND    x
+14  PIXLSW                          G1       10      to RP402 pin 2
+15  _CCK                            B2       14      to E402 pin 1
+16  GND     x       x      x
+17  GND     x       x      x
+18  GND     x       x
+19  GND     x       x      x
+20  GND             x      x
+21  -5                              R2       4       to E403 pin 1
+22  +12     x       x               R1       5       to E404 pin 1
+23  +5      x
+
+
+SIGNAL HYBRID  with 47 ohm to
+R2     4       to E403 pin 1
+R1     5       to E404 pin 1
+R0     6       to RP403 pin 8
+G2     9       to RP403 pin 6
+G1     10      to RP402 pin 2
+G0     11      to RP403 pin 2
+B2     14      to E402 pin 1
+B1     15      to R403 pin 2
