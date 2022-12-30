@@ -5,8 +5,6 @@ a rather small adapter board can be used to extract the digital video signal (12
 with the Raspberry Pi Zero. This can then be used with the [RGBtoHDMI](https://github.com/hoglet67/RGBtoHDMI) software 
 to produce a perfect HDMI picture with very low latency (a few milliseconds at most).
 
-![](bootscreen.jpg)
-
 
 ## Stuff needed
 
