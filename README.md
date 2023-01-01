@@ -67,15 +67,7 @@ lesser used pins on the DB23 video connector can bring all relevant signals to t
 outside without modifying the computer case. 
 This hack requires soldering skills, but no special hardware.
 
-Check the [Amiga digital video hack](db23_hack) for details. 
-
-### Analog output on the DB23
-
-Re-digitizes the analog video signal with some circuity inside the DB23 connector. This
-can be used for a completely external solution without the need to open the Amiga.
-
-This is not yet available and may indeed not even be possible. Experiments are ongoing.
- 
+Check the [Amiga digital video hack](db23_hack) for details.  
 
 ## Contact
 

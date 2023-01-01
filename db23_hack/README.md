@@ -53,10 +53,10 @@ I don't know which hardware actually used the clock output (_CCK), but anyway it
 I also don't know which hardware would need the negative voltage. So whatever the usage was, it will not work.
 * SCART adapters:
 This is the only real use case that is probably still relevant. Many Amiga-to-SCART cables use the +12 volt output
-to generate the signaling voltage to switch the TV to RGB mode. Many TVs do not need this signal and can be switched
-to RGB manually. But some TVs rely on this signal. In this case you would have to rework the cable to get the signaling
-voltage from pin 23 (+5 volt) instead. This may probably also require to change the resistors in the cable to match
-the other voltage.
+to generate the signal to auto-select the SCART input to be shown on the TV. I am not sure what the 
+TV will do if this signal now is a randomly toggling input. In the best case you only need to select the 
+SCART input manually. In the worst case the TV will be too confused to work. In this case you need to 
+rewire the SCART adapter to use the 5V instead of the 12V for this signaling.
 
 ## Doing the modifications
 
