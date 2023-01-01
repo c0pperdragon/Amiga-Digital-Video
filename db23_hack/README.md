@@ -126,7 +126,7 @@ For some time now, there are even some properly made DB23 connectors available, 
 
 Important safety notice:
 Using this cable on an unmodified Amiga will directly transfer the original -5/-12 and +12 volts into the RGBtoHDMI which
-will damage the CPLD and mabe even the Raspberry Pi itself. Consider to write a warning on the DB23 plug.
+will damage the CPLD and maybe even the Raspberry Pi itself. Consider to write a warning on the DB23 plug.
 
 | Signal  | 16 way IDC | DB23
 | ------- | ---------- | ----
