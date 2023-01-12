@@ -45,8 +45,8 @@ The _XCLKEN und XCLK inputs were used to force the Amiga's clock to run in sync 
 used to produce overlays for TV video signals. Also the PIXLSW output was used for this purpose to notify the
 overlay circuity about when the Amiga is creating any color signal.
 * CGA or VGA monitors:
-Monitors that need explicit horizontal and vertical sync signals (HSYNC, VSYNC). Originally this, together with the 4 original digital 
-color outputs, was intended to drive a CGA monitor. Later hacks used this to connect a 15kHz-compatible VGA monitor. 
+Monitors that need explicit horizontal and vertical sync signals (HSYNC, VSYNC). Originally, this together with the 4 original digital 
+color outputs was intended to drive a CGA monitor. Later hacks used this to connect a 15kHz-compatible VGA monitor. 
 * Clock output:
 I don't know which hardware actually used the clock output (_CCK), but anyway it would not work any longer.
 * -5/-12 volt:

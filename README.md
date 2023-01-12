@@ -24,7 +24,7 @@ that goes between the Denise and its socket. A Raspberry Pi Zero is direct attac
 
 ### CPLD adapter
 
-A very similar solution to the dirct adapter interfaces the Denise to the Raspbery Pi using a CPLD. This
+A very similar solution to the direct adapter interfaces the Denise to the Raspbery Pi using a CPLD. This
 can be used to more finely tune the sampling.
 
 ### Big-box video interfaces
@@ -71,5 +71,5 @@ Check the [Amiga digital video hack](db23_hack) for details.
 
 ## Contact
 
-For general questions on the project and to reoport problems and give feedback, please use the github issue system.
+For general questions on the project and to report problems and give feedback, please use the github issue system.
 For specific questions, like ordering kits for the "Small" adapter, please email me at   reinhard.grafl (at) aon.at .
