@@ -122,7 +122,7 @@ Use this table for detailed instructions.
 With the internal modification finished, you need a cable to properly connect the Amiga to the RGBtoHDMI. This is 
 pretty straight forward when using a ribbon cable, a 16-pin IDC connector and a female 23-pin D-Sub connector (a.k.a. DB23).
 For some time now, there are even some properly made DB23 connectors available, so you don't need to cut down a DB25: 
-(https://retrohax.net/shop/modulesandparts/db23-connector-female/)
+(https://de.aliexpress.com/item/1005005014449948.html)
 
 Important safety notice:
 Using this cable on an unmodified Amiga will directly transfer the original -5/-12 and +12 volts into the RGBtoHDMI which
