@@ -129,7 +129,7 @@ Using this cable on an unmodified Amiga will directly transfer the original -5/-
 will damage the CPLD and maybe even the Raspberry Pi itself. Consider to write a warning on the DB23 plug.
 
 | Signal  | 16 way IDC | DB23
-| ------- | ---------- | ----
+| ------- | ---------- | --------
 | G0      | 1          | 1
 | R0      | 2          | 12
 | B0      | 3          | 6
@@ -141,9 +141,9 @@ will damage the CPLD and maybe even the Raspberry Pi itself. Consider to write a
 | R2      | 9          | 21
 | B2      | 10         | 15
 | R3      | 11         | 9
-| CSYNC   | 12 (HSYNC) | 10
+| HSYNC   | 12         | 10 (CSYNC)
 | G3      | 13         | 8
-| GND     | 14 (VSYNC) | 17
+| VSYNC   | 14         | n.c.
 | B3      | 15         | 7
 | +5V     | 16         | n.c.
 
