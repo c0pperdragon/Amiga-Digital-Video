@@ -145,6 +145,6 @@ will damage the CPLD and maybe even the Raspberry Pi itself. Consider to write a
 | G3      | 13         | 8
 | GND     | 14 (VSYNC) | 17
 | B3      | 15         | 7
-| +5V     | 16         | 23
+| +5V     | 16         | n.c.
 
 ![](pic/cable.jpg)
